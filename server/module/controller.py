@@ -9,6 +9,6 @@ class Normal(Resource):
         global requestTotal
         requestTotal += 1
         print(requestTotal)
-        return {"data" : "this is a small service"}
+        return {"data" : requestTotal}
 
 api.add_resource(Normal, "/")
