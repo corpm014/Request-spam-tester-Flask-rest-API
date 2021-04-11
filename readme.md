@@ -1,1 +1,3 @@
-# This is a simple flask rest api + request tester that spams the url
+# Flask api + request tester
+
+A basic flask restful api and a request tester.
